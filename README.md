@@ -1,4 +1,4 @@
 NikBisht.github.io
 ==================
 
-website?
+Personal website for the curious.
