@@ -42,13 +42,9 @@ $(document).ready(function() {
 
   // Hover over project should show desc
   $("#sec-store-project").hover(function() {
-    // $("#sec-store-project .project-title").css("display", "block");
-    // $("#sec-store-project .project-desc").css("display", "block");
     $("#sec-store-project .project-title").fadeIn();
     $("#sec-store-project .project-desc").fadeIn();
   }, function() {
-    // $("#sec-store-project .project-title").css("display", "none");
-    // $("#sec-store-project .project-desc").css("display", "none");
     $("#sec-store-project .project-title").fadeOut();
     $("#sec-store-project .project-desc").fadeOut();
   });
