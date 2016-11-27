@@ -42,35 +42,39 @@ $(document).ready(function() {
 
   // Hover over project should show desc
   $("#sec-store-project").hover(function() {
-    $("#sec-store-project .project-title").css("display", "block");
-    $("#sec-store-project .project-desc").css("display", "block");
+    // $("#sec-store-project .project-title").css("display", "block");
+    // $("#sec-store-project .project-desc").css("display", "block");
+    $("#sec-store-project .project-title").fadeIn();
+    $("#sec-store-project .project-desc").fadeIn();
   }, function() {
-    $("#sec-store-project .project-title").css("display", "none");
-    $("#sec-store-project .project-desc").css("display", "none");
+    // $("#sec-store-project .project-title").css("display", "none");
+    // $("#sec-store-project .project-desc").css("display", "none");
+    $("#sec-store-project .project-title").fadeOut();
+    $("#sec-store-project .project-desc").fadeOut();
   });
 
   $("#emo-project").hover(function() {
-    $("#emo-project .project-title").css("display", "block");
-    $("#emo-project .project-desc").css("display", "block");
+    $("#emo-project .project-title").fadeIn();
+    $("#emo-project .project-desc").fadeIn();
   }, function() {
-    $("#emo-project .project-title").css("display", "none");
-    $("#emo-project .project-desc").css("display", "none");
+    $("#emo-project .project-title").fadeOut();
+    $("#emo-project .project-desc").fadeOut();
   });
 
   $("#pacman-project").hover(function() {
-    $("#pacman-project .project-title").css("display", "block");
-    $("#pacman-project .project-desc").css("display", "block");
+    $("#pacman-project .project-title").fadeIn();
+    $("#pacman-project .project-desc").fadeIn();
   }, function() {
-    $("#pacman-project .project-title").css("display", "none");
-    $("#pacman-project .project-desc").css("display", "none");
+    $("#pacman-project .project-title").fadeOut();
+    $("#pacman-project .project-desc").fadeOut();
   });
 
   $("#dvrouter-project").hover(function() {
-    $("#dvrouter-project .project-title").css("display", "block");
-    $("#dvrouter-project .project-desc").css("display", "block");
+    $("#dvrouter-project .project-title").fadeIn();
+    $("#dvrouter-project .project-desc").fadeIn();
   }, function() {
-    $("#dvrouter-project .project-title").css("display", "none");
-    $("#dvrouter-project .project-desc").css("display", "none");
+    $("#dvrouter-project .project-title").fadeOut();
+    $("#dvrouter-project .project-desc").fadeOut();
   });
 
 });
